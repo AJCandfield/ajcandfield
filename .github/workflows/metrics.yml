@@ -1,5 +1,6 @@
 ---
 name: Metrics
+run-name: Updating metrics on ${{github.repository_owner}}'s profile.
 concurrency: main
 on:
   schedule:
