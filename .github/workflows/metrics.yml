@@ -16,5 +16,6 @@ jobs:
       - name: Github metrics
         uses: lowlighter/metrics@latest
         with:
+          base_hireable: true
           token: ${{ secrets.PROFILE_METRICS }}
           filename: .github/metrics.svg
