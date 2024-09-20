@@ -16,6 +16,13 @@ jobs:
       - name: Github metrics
         uses: lowlighter/metrics@latest
         with:
-          base_hireable: true
           token: ${{ secrets.PROFILE_METRICS }}
           filename: .github/metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_hireable: yes
+          config_timezone: Europe/London
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_stars: yes
+          plugin_stars_limit: 4
