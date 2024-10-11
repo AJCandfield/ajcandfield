@@ -11,6 +11,8 @@ If you want to reach out to me, write an email to <alex.candfield@gmail.com>
 
 Peace ✌🏽
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B014L3PR)
+
 ---
 
 <p align="center">
